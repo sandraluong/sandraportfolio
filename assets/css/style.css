@@ -220,5 +220,31 @@ align-items: center;
   .button:hover {
     box-shadow: 0px 10px 36px rgba(0, 0, 0, 0.15);
   }
+  /* About */
+
+.about_container{
+    
+    row-gap: 2rem;
+    text-align: center;
+    justify-content: center;
+}
+.about__subtitle{
+    margin-bottom: var(--mb-2);
+    text-align: center;
+}
+.about__img{
+    width: 250px;
+    justify-self: center;
+    border-radius: 1rem;
+}
+.about__text{
+    text-align: center;
+    font-size: var(--body-font);
+}
+.about__button{
+    display: flex;
+    justify-content: center;
+}
+
   
   
