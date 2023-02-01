@@ -359,6 +359,42 @@ align-items: center;
 .skills__open .skills__arrow{
     transform: rotate(-180deg);
 }
+/* ==============QUALIFICATIONS */
+.qualification__tabs{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: var(--mb-2);
+}
+.qualification__button{
+    font-size: var(--h2-font-size);
+    font-weight: var(--font-medium);
+    cursor: pointer;
+}
+.qualification__button:hover{
+    color:var(--first-color)
+}
+.qualification__icon{
+    font-size: 1.8rem;
+    margin-right: var(--mb-1);
+}
+.qualification__sections{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row: auto;
+    column-gap: 1.5rem;
+ }
+ .qualification__title{
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+    color: var(--first-color);
+ }
+ .qualification__subtitle{
+    display: inline-block;
+    font-size: var(--body-font);
+    margin-bottom: var(--mb-1);
+ }
+
+
 /* ==============CONTACT=================== */
 
 .contact__container{
