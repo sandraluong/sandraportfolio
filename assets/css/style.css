@@ -360,7 +360,7 @@ align-items: center;
 .skills__open .skills__arrow{
     transform: rotate(-180deg);
 }
-/* ==============QUALIFICATIONS */
+/* ==============QUALIFICATIONS==================== */
 .qualification__tabs{
     display: flex;
     justify-content: space-around;
@@ -396,7 +396,7 @@ align-items: center;
  }
 
 
-/* ==============CONTACT=================== */
+/* ==============CONTACT====================== */
 
 .contact__container{
     row-gap: 3rem;
@@ -540,8 +540,7 @@ align-items: center;
       margin: 0;
     }
     .section {
-      padding-top: 4rem;
-      padding-bottom: 3rem;
+      padding: 6rem 0 2rem;
     }
     .section-title {
       margin-bottom: var(--mb-6);
@@ -549,6 +548,12 @@ align-items: center;
     .section-title::after {
       width: 80px;
       top: 3rem;
+    }
+    .header,
+    .main,
+    .footer{
+      padding: 0 1rem;
+
     }
     .nav {
       height: calc(var(--header-height) + 1.5rem);
@@ -574,11 +579,14 @@ align-items: center;
       width: 400px;
       bottom: 10%;
     }
+    .home__scroll-button{
+      margin-left: 3rem;
+    }
     .about__container {
       padding-top: 2rem;
     }
     .about__img img {
-      width: 300px;
+      width: 500px;
     }
     .skills__container {
       grid-template-columns: repeat(2, 1fr);
